@@ -35,11 +35,25 @@ export const routes = [
         }
     },
     {
-        method: 'PATCH',
+        method: 'PUT',
         path: buildRoutePath('/tasks/:id'),
         handler: (req, res) => {
+            const { id } = req.params
+            const {title, description} = req.body
+            database.update('tasks', id, {
+                title, 
+                description,
+                updated_at: new Date()
+            })
+            return res.writeHead(204).end()
+        }
+    },
+    {
+        method: 'PATCH',
+        path: buildRoutePath('/tasks'),
+        handler: (req, res) => {
             const { id, completed } = req.query
-            database.update('tasks', id, completed)
+            database.complete('tasks', id, completed)
             return res.writeHead(204).end()
         }
     },

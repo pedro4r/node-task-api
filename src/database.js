@@ -42,18 +42,37 @@ export class Database {
         return data
     }
 
-    update(table, id, completed){
+    complete(table, id, completed){
         const rowIndex = this.#database[table]
         .findIndex(row => row.id === id)
 
         if(rowIndex > -1) {
-            if(completed === true) {
+            console.log(completed)
+            if(completed === 'true') {
                 this.#database[table][rowIndex].completed_at = new Date()
             }
             else {
                 this.#database[table][rowIndex].completed_at = null
             }
             
+            this.#persist()
+        }
+    }
+
+    update(table, id, data){
+        const rowIndex = this.#database[table]
+        .findIndex(row => row.id === id)
+
+        if(rowIndex > -1) {
+            const existingRow = this.#database[table][rowIndex];
+            const updatedRow = {
+                ...existingRow,
+                title: data.title,
+                description: data.description,
+                updated_at: data.updated_at
+            };
+
+            this.#database[table][rowIndex] = updatedRow;
             this.#persist()
         }
     }
