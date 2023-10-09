@@ -10,7 +10,6 @@ export const routes = [
         path: buildRoutePath('/tasks'),
         handler: (req, res) => {
             const { search } = req.query
-            console.log(search)
             const tasks = database.select('tasks', search ? {
                 title: search,
                 description: search
@@ -36,24 +35,21 @@ export const routes = [
         }
     },
     {
-        method: 'PUT',
-        path: '/tasks/:id',
+        method: 'PATCH',
+        path: buildRoutePath('/tasks/:id'),
         handler: (req, res) => {
-            
+            const { id, completed } = req.query
+            database.update('tasks', id, completed)
+            return res.writeHead(204).end()
         }
     },
     {
         method: 'DELETE',
-        path: '/tasks/:id',
+        path: buildRoutePath('/tasks/:id'),
         handler: (req, res) => {
-          
-        }
-    },
-    {
-        method: 'PATCH',
-        path: '/tasks/:id/complete',
-        handler: (req, res) => {
-          
+            const { id } = req.params
+            database.delete('tasks', id)
+            return res.writeHead(204).end()
         }
     }
 ]
