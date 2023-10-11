@@ -1,84 +1,52 @@
 {
     "tasks": [
         {
-            "id": "ff328492-0dbf-4981-a991-b96f3e2d09f5",
+            "id": "7f173dba-5d0d-4398-94ab-0d20c7135d75",
             "title": "Node 01",
             "description": "My task node",
             "completed_at": null,
-            "created_at": "2023-10-11T05:26:52.566Z",
-            "updated_at": "2023-10-11T05:26:52.566Z"
+            "created_at": "2023-10-11T19:50:55.911Z",
+            "updated_at": "2023-10-11T19:50:55.911Z"
         },
         {
-            "id": "5a5d5420-12a5-448b-96d5-eb32ac897300",
+            "id": "6ed8e957-1762-4d15-aecc-cef5e98c4aca",
             "title": "React 01",
             "description": "My task react",
             "completed_at": null,
-            "created_at": "2023-10-11T05:26:52.566Z",
-            "updated_at": "2023-10-11T05:26:52.566Z"
+            "created_at": "2023-10-11T19:50:55.911Z",
+            "updated_at": "2023-10-11T19:50:55.911Z"
         },
         {
-            "id": "21d20f3f-f6e0-4b45-9a38-234dd84d6909",
+            "id": "0a09257d-8902-4b68-8cd8-93b4d228c5c4",
             "title": "Tailwind 01",
             "description": "My Task Tailwind",
             "completed_at": null,
-            "created_at": "2023-10-11T05:26:52.566Z",
-            "updated_at": "2023-10-11T05:26:52.566Z"
+            "created_at": "2023-10-11T19:50:55.911Z",
+            "updated_at": "2023-10-11T19:50:55.911Z"
         },
         {
-            "id": "406081c2-1be3-4de4-894b-f3ad7b8b14fd",
+            "id": "62d0995a-9ac1-40d1-9db6-30f1c41df656",
             "title": "Next 01",
             "description": "My task Next",
             "completed_at": null,
-            "created_at": "2023-10-11T05:26:52.567Z",
-            "updated_at": "2023-10-11T05:26:52.567Z"
+            "created_at": "2023-10-11T19:50:55.912Z",
+            "updated_at": "2023-10-11T19:50:55.912Z"
         },
         {
-            "id": "3cd89ba7-1f5a-4b5f-a516-236c6f787509",
-            "title": "Tailwind Study",
-            "description": "First chapter",
-            "completed_at": null,
-            "created_at": "2023-10-11T05:26:59.202Z",
-            "updated_at": "2023-10-11T05:26:59.202Z"
-        },
-        {
-            "id": "2628bf6e-0f4c-4792-a3d5-ca4af5bcc801",
+            "id": "38194caf-9ac1-4b58-a96f-bc494a5d759c",
             "title": "SQL Study",
             "description": "Second chapter",
             "completed_at": null,
-            "created_at": "2023-10-11T05:27:16.184Z",
-            "updated_at": "2023-10-11T05:27:16.184Z"
+            "created_at": "2023-10-11T19:51:12.680Z",
+            "updated_at": "2023-10-11T19:51:12.680Z"
         },
         {
-            "id": "f6352905-6011-48e7-8b87-ac4074c13fa7",
-            "title": "Node 01",
-            "description": "My task node",
+            "id": "bd60135d-24e3-4c5f-abee-83441fc4b6d8",
+            "title": "PHP Study",
+            "description": "Second chapter",
             "completed_at": null,
-            "created_at": "2023-10-11T05:27:31.034Z",
-            "updated_at": "2023-10-11T05:27:31.034Z"
-        },
-        {
-            "id": "f5ed677b-dc16-40d6-a1cd-8ad69cf34a9a",
-            "title": "React 01",
-            "description": "My task react",
-            "completed_at": null,
-            "created_at": "2023-10-11T05:27:31.034Z",
-            "updated_at": "2023-10-11T05:27:31.034Z"
-        },
-        {
-            "id": "0458ed75-5476-4b18-aa52-ba487cd60235",
-            "title": "Tailwind 01",
-            "description": "My Task Tailwind",
-            "completed_at": null,
-            "created_at": "2023-10-11T05:27:31.034Z",
-            "updated_at": "2023-10-11T05:27:31.034Z"
-        },
-        {
-            "id": "eadaf567-4a25-4023-8257-21068af17e5e",
-            "title": "Next 01",
-            "description": "My task Next",
-            "completed_at": null,
-            "created_at": "2023-10-11T05:27:31.035Z",
-            "updated_at": "2023-10-11T05:27:31.035Z"
+            "created_at": "2023-10-11T19:51:25.283Z",
+            "updated_at": "2023-10-11T19:51:25.283Z"
         }
     ]
 }

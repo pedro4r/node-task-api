@@ -7,29 +7,23 @@ import { database } from './routes.js';
 export async function csvIterator() {
         const parser = fs
           .createReadStream(filePath)
-          .pipe(parse())
+          .pipe(parse({
+            delimiter: ',',
+            skipEmptyLines: true,
+            fromLine: 2
+          }))
 
-        let index = 0
         for await (const record of parser) {
-          if(index !== 0) {
-            const [title, description] = record
-            database.insert('tasks', {
-              id: randomUUID(),
-              title,
-              description,
-              completed_at: null,
-              created_at: new Date(),
-              updated_at: new Date()
-            })
-          }
-          index++
+          const [title, description] = record
+          database.insert('tasks', {
+            id: randomUUID(),
+            title,
+            description,
+            completed_at: null,
+            created_at: new Date(),
+            updated_at: new Date()
+          })
         }
 }
 
-
-
-
-
-
-
-
+await csvIterator()

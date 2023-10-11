@@ -3,9 +3,6 @@ import { routes } from './routes.js'
 import { json } from './middlewares/json.js'
 import { extractQueryParams } from './utils/extract-query-params.js'
 import { Database } from './database.js'
-import { csvIterator } from './csv-iterator.js'
-
-await csvIterator()
 
 export const server = http.createServer(async (req, res) => {
   
