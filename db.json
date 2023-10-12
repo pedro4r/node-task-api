@@ -1,52 +1,36 @@
 {
     "tasks": [
         {
-            "id": "7f173dba-5d0d-4398-94ab-0d20c7135d75",
+            "id": "f6ec568c-12e6-454d-ba99-03ea3ccededb",
             "title": "Node 01",
             "description": "My task node",
             "completed_at": null,
-            "created_at": "2023-10-11T19:50:55.911Z",
-            "updated_at": "2023-10-11T19:50:55.911Z"
+            "created_at": "2023-10-12T22:56:59.243Z",
+            "updated_at": "2023-10-12T22:56:59.243Z"
         },
         {
-            "id": "6ed8e957-1762-4d15-aecc-cef5e98c4aca",
+            "id": "51e8ee1a-9ae7-4db9-872b-7a280c772145",
             "title": "React 01",
             "description": "My task react",
             "completed_at": null,
-            "created_at": "2023-10-11T19:50:55.911Z",
-            "updated_at": "2023-10-11T19:50:55.911Z"
+            "created_at": "2023-10-12T22:56:59.252Z",
+            "updated_at": "2023-10-12T22:56:59.252Z"
         },
         {
-            "id": "0a09257d-8902-4b68-8cd8-93b4d228c5c4",
+            "id": "d095b223-7d2c-4a92-a5fb-6e2c635ef296",
             "title": "Tailwind 01",
             "description": "My Task Tailwind",
             "completed_at": null,
-            "created_at": "2023-10-11T19:50:55.911Z",
-            "updated_at": "2023-10-11T19:50:55.911Z"
+            "created_at": "2023-10-12T22:56:59.254Z",
+            "updated_at": "2023-10-12T22:56:59.254Z"
         },
         {
-            "id": "62d0995a-9ac1-40d1-9db6-30f1c41df656",
+            "id": "48771217-7bf7-4595-b5a8-91bc9b9efad3",
             "title": "Next 01",
             "description": "My task Next",
             "completed_at": null,
-            "created_at": "2023-10-11T19:50:55.912Z",
-            "updated_at": "2023-10-11T19:50:55.912Z"
-        },
-        {
-            "id": "38194caf-9ac1-4b58-a96f-bc494a5d759c",
-            "title": "SQL Study",
-            "description": "Second chapter",
-            "completed_at": null,
-            "created_at": "2023-10-11T19:51:12.680Z",
-            "updated_at": "2023-10-11T19:51:12.680Z"
-        },
-        {
-            "id": "bd60135d-24e3-4c5f-abee-83441fc4b6d8",
-            "title": "PHP Study",
-            "description": "Second chapter",
-            "completed_at": null,
-            "created_at": "2023-10-11T19:51:25.283Z",
-            "updated_at": "2023-10-11T19:51:25.283Z"
+            "created_at": "2023-10-12T22:56:59.256Z",
+            "updated_at": "2023-10-12T22:56:59.256Z"
         }
     ]
 }
